@@ -1,0 +1,93 @@
+/* RESET */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* CORES E TIPOGRAFIA */
+
+body{
+  font-family: 'Arial', sans-serif;
+  background-color: #dedddd;
+  color: #141313;
+}
+
+/* MENU */
+
+nav{
+  background-color: #141313;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a{
+  color: #f8f7f7;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover{
+  color: #3885eb;
+}
+
+/* BANNER */
+
+#banner{
+  text-align: center;
+  color: #f8f7f7;
+  padding: 60px 20px;
+  background: #6aa3ec;
+  max-width: none;
+}
+
+/* BOTOES */
+
+button{
+  background-color: #3885eb;
+  color: #f8f7f7;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+/* LAYOUT */
+
+section{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* CLASSE */
+
+.card{
+  background-color: #f1f0f0;
+  padding: 20px;
+  margin: 20px auto;
+  border: 2px solid #141313;
+  border-radius: 10px;
+  box-shadow: 4px 4px 0 #141313;
+}
+
+/* FORMULARIO */
+
+form{
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  gap: 15px;
+}
+
+input, textarea{
+  padding: 10px;
+  border: 2px solid #141313;
+  border-radius: 5px;
+  font-family: inherit;
+}
