@@ -1,4 +1,3 @@
-
 document.getElementById("ano").textContent = new Date().getFullYear();
 
 const emailTexto = document.getElementById("email-texto").innerText.trim();
